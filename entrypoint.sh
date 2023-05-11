@@ -2,7 +2,7 @@
 
 # 设置各变量，WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'02d6cb87-8b04-4d0d-9f8d-d6a0373e372c'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
@@ -13,8 +13,8 @@ NEZHA_KEY="$NEZHA_KEY"
 NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH="$ARGO_AUTH"
-ARGO_DOMAIN="$ARGO_DOMAIN"
+ARGO_AUTH="{"AccountTag":"a0fb0a61ca9549ea6bb2b42b86451440","TunnelSecret":"xD5Fvv5nq71y7CK8T/vW0ki/I/JUH7EVTgodm3gX6Mc=","TunnelID":"e55898e5-101d-4a43-baa4-0ffde1b44128"}"
+ARGO_DOMAIN="webapp.weigogogo.gq"
 
 # 安装系统依赖
 check_dependencies() {
